@@ -18,4 +18,29 @@ AirREGI / Restaurant Board (air): similar to Square, a reservation control and c
 You must use the reservations, visits, and other information from these sites to forecast future restaurant visitor totals on a given date. The training data covers the dates from 2016 until April 2017. The test set covers the last week of April and May of 2017. The test set is split based on time (the public fold coming first, the private fold following the public) and covers a chosen subset of the air restaurants. Note that the test set intentionally spans a holiday week in Japan called the "Golden Week."</p>
 
 
+## Directory 
+```
+          input/ --> where the csv files is instore 
+          |--->air_reserve.csv
+          |--->air_store_info.csv
+          |--->air_visit_data.csv
+          |--->date_info.csv
+          |--->hpg_reserve.hpg
+          |--->hpg_store_info.csv
+          |--->sample_submission.csv
+          |--->store_id_relation.csv
+	
+        data-exploration/--->
+          |--->air_reserve-exploration.ipynb
+          |--->air_store_info-exploration.ipynb
+          |--->air_visit_data-exploration.ipynb
+          |--->date_info-exploration.ipynb
+          |--->hpg_reserve-exploration.ipynb
+          |--->hpg_store_info-exploration.ipynb
+          |--->store_id_relation-exploration.ipynb
+
+
+```
+
+
 
